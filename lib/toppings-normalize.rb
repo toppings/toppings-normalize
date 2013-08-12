@@ -1,0 +1,1 @@
+require 'toppings/normalize'

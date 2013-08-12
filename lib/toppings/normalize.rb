@@ -1,7 +1,10 @@
 require "toppings/normalize/version"
 
 module Toppings
+  SASS_DEPENDENCIES ||= Set.new
+
   module Normalize
-    # Your code goes here...
   end
 end
+
+Toppings::SASS_DEPENDENCIES.add 'compass-normalize'
